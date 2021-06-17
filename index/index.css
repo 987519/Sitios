@@ -1,0 +1,213 @@
+html,body{
+	padding: 0px;
+	margin: 0px;
+	font-size: 13px;
+	font-family: cursive;
+}
+
+
+
+nav{
+	color: white;
+	display: flex;
+	background-color: #9cbad8;
+	padding: 0,01px;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+
+nav ul{
+	display: flex;
+}
+
+nav li{
+	padding-left: 20px;
+	display: flex;
+	padding-right: 20px; 
+	margin: 5px;
+
+}
+
+nav .nombre{
+	margin: 15px;
+}
+
+nav li a{
+	color: black;
+	text-decoration: none;
+}
+
+nav li a:hover{
+	color: white;
+}
+/*------------------main section*/
+
+.main{
+	padding: 10%;
+	text-align: center;
+
+}
+
+.produt{
+	background-color: none;
+	height: 200px;
+	background-size: cover;
+	background-position: center top;
+	padding: 20px;
+	display: flex;
+}
+
+.produt1{
+	padding: 20px;
+}
+
+.produt1 .contenido{
+	background-color: white;
+	padding: 20px;
+
+}
+
+.nuevo .gatito{
+	text-align: right top;
+	margin: 20px;
+	padding: -60px;
+
+	
+}
+
+.nota{
+	box-sizing: content-box;
+	text-align: left ;
+	border-radius: 3px;
+	display: flex;
+	display: block;
+	margin: 50px;
+	padding: 10px;
+	background-color: #ecde65; 
+	border-color: #8dbae8;
+	font-family: arial;
+	font-size: 17px;
+	max-height: 80px;
+	max-width: 600px;
+
+}
+
+.ternimo{
+	display: flex;
+	/*margin: 10px;*/
+	background-color:#000000;
+	padding: 20px;
+	color: white;
+
+}
+
+.quiere{
+	display: block;
+	border-radius: 4px ;
+	background-color: #d0d6dc;
+	margin: 20px;
+	padding: 20px;
+	text-align: center;
+	font-size: 20px;
+	font-family: cursive;
+
+}
+
+.quiere .siq a{
+
+	box-shadow: 0 0 2px black;
+	justify-content: center;
+	border-radius: 4px;
+	display: flex;
+	display: block;
+	background-color: #579dec;
+	color: white;
+	max-height: 500px;
+	max-width:200px;
+	border: 0px;
+	padding: 10px;
+	margin-bottom: 100px;
+	text-decoration: none;
+}
+
+.siq a:hover{
+	background-color: #0078ff;
+
+}
+/*------------------------------comentario*/
+
+.comentario{
+	display: flex;
+	background-color: #b9b9b9;
+	height: 500px;
+	width: 100%;
+	background-size: cover;
+	background-position: center top;
+	padding: 0px;
+	
+
+}
+
+.coment{
+	padding: 40px;
+
+}
+
+.coment .todo{
+
+	display: flex;
+	background-color: white;
+	margin: 10px;
+	padding: 0px;
+	display: flex;
+
+}
+
+
+.mensaje{
+	background-color: #d0d6dc;
+	max-width: 210px;
+	max-height: 500px;
+
+}
+
+.joven {
+	text-align: right;
+	width: 200;
+	height: 100;
+	/*width: 100%;*/
+	background-color: #b9b9b9;
+	display: block;
+}
+
+.mujer{
+	text-align: left;
+	width: 200;
+	height: 100;
+	/*width: 100%;*/
+	background-color: #b9b9b9;
+	display: block;
+
+
+}
+
+.hombre{
+	text-align: left;
+	width: 200;
+	height: 100;
+	/*width: 100%;*/1
+	background-color: #b9b9b9;
+	display: block;
+
+
+
+}
+
+.personas{
+	margin: 20px;
+	
+
+}
+/*-------------------------------comentario*/
